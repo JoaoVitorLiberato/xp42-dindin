@@ -1,0 +1,132 @@
+body{
+    font-family: 'ubuntu', sans-serif;
+}
+.container{
+    width: 1440px;
+    display: flex;
+    justify-content:space-around;
+    box-sizing: content-box;
+    padding: 0 20px;
+
+}
+
+.screen-reader-only{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position:absolute;
+    white-space: nowrap;
+    width: 1px;
+
+}
+
+header{
+
+    background: #2e948a;
+    display: flex;
+    justify-content: center;
+}
+header h2 a {
+    display: block;
+    color: transparent;
+    background: url('../dindin-imagens/dindin-imagens/logo-header.png') 0 0 no-repeat;
+    width: 244px;
+    height: 77px;
+}
+header nav ul{
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    margin: 0 0 20px;
+    padding: 0;
+    
+
+}
+header nav ul li{
+    list-style: none;
+}
+
+header ul li a{
+    color: #FDFDFD;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+footer{
+    background: #419488;
+    box-sizing: content-box;
+}
+
+footer h2 a{
+    display: block;
+    color: transparent;
+    background: url('../dindin-imagens/dindin-imagens/logo-footer.png') 0 0 no-repeat;
+    width: 244px;
+    height: 110px;
+}
+
+footer nav ul{
+    
+ 
+   margin: 30px 0;
+   padding: 0px;
+
+}
+footer nav ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    color: #FDFDFD;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.link-anexos ul{
+    list-style: none;
+    margin: 38px;
+    
+}
+.link-anexos ul li{
+    margin: 45px 0px 0px 0px;
+   
+}
+
+.link-anexos ul li a{
+    border: 1px solid white;
+    border-radius: 62px;
+    padding: 14px 41px; 
+    margin: 0 0 14px;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 769px) {
+    .container{
+        width: 720px;
+
+    }
+
+}
+
+@media only screen and (max-width: 481px) {
+    .container{
+        width: 460px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+    
+    }
+
+}
+ 
