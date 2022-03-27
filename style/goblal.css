@@ -4,9 +4,9 @@ body{
 .container{
     width: 1440px;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     box-sizing: content-box;
-    padding: 0 20px;
+    padding: 0 60px;
 
 }
 
@@ -59,12 +59,16 @@ header ul li a{
     padding: 0 10px;
 }
 
-footer{
+.container-footer{
     background: #419488;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     box-sizing: content-box;
+    padding: 0px 30px;
 }
 
-footer h2 a{
+.container-footer h2 a{
     display: block;
     color: transparent;
     background: url('../dindin-imagens/dindin-imagens/logo-footer.png') 0 0 no-repeat;
@@ -72,18 +76,18 @@ footer h2 a{
     height: 110px;
 }
 
-footer nav ul{
+.container-footer nav ul{
     
  
    margin: 30px 0;
    padding: 0px;
 
 }
-footer nav ul li{
+.container-footer nav ul li{
     list-style: none;
 }
 
-footer ul li a{
+.container-footer ul li a{
     color: #FDFDFD;
     text-decoration: none;
     font-size: 20px;
@@ -111,6 +115,7 @@ footer ul li a{
 }
 
 @media only screen and (max-width: 769px) {
+    
     .container{
         width: 720px;
 
@@ -119,6 +124,7 @@ footer ul li a{
 }
 
 @media only screen and (max-width: 481px) {
+   
     .container{
         width: 460px;
         flex-wrap: wrap;
@@ -129,4 +135,3 @@ footer ul li a{
     }
 
 }
- 
