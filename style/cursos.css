@@ -1,0 +1,80 @@
+main{
+    margin-bottom: 30px;
+}
+article > h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;  
+    width: 263px;
+    height: 69px;
+    margin-left: 82px;  
+    margin-top: 100px;  
+    color: #FF4081;
+}
+
+article > p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    width: 317px;
+    height: 23px;
+    margin-left: 82px;
+    color: #555555;
+    
+}
+
+.aba-cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 110px;
+    margin-top: 90px;
+
+}
+
+.imagem-cursos{
+    width: 380px;
+    height: 385px;
+    margin-top: 95px;
+}
+
+.conteudo-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+}
+
+.conteudo-cursos h2{
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    width: 512px;
+    height: 40px;
+    margin-left: 80px;
+
+}
+.conteudo-cursos p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    width: 724px;
+    height: 105px;
+    color: #000000;
+}
+
+.botao{
+
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 62px;
+    background: #419488;
+    margin: 26px 377px 0px 81px;
+    padding: 11px 106px;
+}
+
+
+
