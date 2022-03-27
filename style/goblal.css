@@ -64,8 +64,7 @@ header ul li a{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    box-sizing: content-box;
-    padding: 0px 30px;
+    padding: 25px 30px;
 }
 
 .container-footer h2 a{
