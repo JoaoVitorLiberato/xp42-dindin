@@ -173,7 +173,7 @@ main {
     font-size: 37px;
     line-height: 43px;
     margin: 0px 100px 40px;
-    padding: 80px;
+    padding: 25px;
     color: #009688;
     text-transform: uppercase;
 }
@@ -203,7 +203,6 @@ main {
 
 .botao-todos-posts{
     background-color: #E5E5E5;
-    margin: 0px 100px 72px;
     
 }
 
