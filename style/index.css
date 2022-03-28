@@ -1,8 +1,4 @@
-* {
 
-    background-size: contain;
-  
-}
 .box1{
     
     display: flex;
@@ -217,6 +213,90 @@
     margin: 0px 531px;
 }
 
+@media only screen and (max-width: 769px) {
+   
+    *{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        
+        
+    }
+    
+    .box1{
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+     .bloco h1{
+
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 481px) {
+   
+    .container{
+       width: 100%;
+       flex-wrap: wrap;
+       justify-content: center;   
+
+    }
+    header h2 a{
+        margin: 5px 0px;
+    }
+
+    header nav ul{
+
+        margin: 0 14px 75px;
+
+    }
+
+    header nav ul li{
+
+    }
+
+
+    .box1{
+        flex-direction: column;
+    }
+    
+
+    .bloco{
+
+        align-items: center;
+        
+    }
+
+    .bloco h1{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+        color: #FF4081;
+        margin: 50px 5px;
+    }
+
+    .bloco p{
+        margin: 0px 0px 50px;
+        font-size: initial;
+    }
+    .bloco a{
+        margin-left: 103px;
+        padding: 12px;
+    }
+
+    .imagem-ilustra-baner{
+       width: 343px;
+       height: 480px;
+
+    }
+
+
+}
 
  
 
