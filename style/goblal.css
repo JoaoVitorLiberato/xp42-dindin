@@ -1,61 +1,109 @@
-*{
+* {
     font-family: 'Ubuntu', sans-serif;
 }
 
-
-.screen-reader-only{
+.screen-reader-only {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
-    position:absolute;
+    position: absolute;
     white-space: nowrap;
     width: 1px;
+}
+
+@media only screen and (max-width: 990px) {
+    header .navbar .container-fluid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container {
+        width: 720px;
+    }
+
+    footer h2 {
+        display: none;
+    }
+
+    footer nav {
+        display: none;
+    }
+
+    footer .btnProf ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .btnProf ul li {
+        margin: 10px;
+    }
 
 }
 
-header{
+@media only screen and (max-width: 481px) {
+    header .container-fluid img {
+        width: 199px;
+        height: 67px;
+    }
 
+    header .navbar .container-fluid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container {
+        width: 460px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h2 {
+        margin: 10px 0;
+    }
+
+    footer .btnProf ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer .btnProf ul li {
+        margin: 10px;
+    }
+}
+
+header {
     background: #2e948a;
-    display: flex;
-    justify-content: center;
-}
-header h2 a {
-    display: block;
-    color: transparent;
-    background: url('../dindin-imagens/dindin-imagens/logo-header.png') 0 0 no-repeat;
-    width: 244px;
-    height: 77px;
-}
-header nav ul{
-    
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    align-content: center;
-    height: 100%;
-    margin: 0 0 20px;
-    padding: 0;
-    
-
-}
-header nav ul li{
-    list-style: none;
 }
 
-header ul li a{
+header nav .container-fluid {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    width: 250px;
+}
+
+header #navbarSupportedContent ul li a {
     color: #FDFDFD;
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 0 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 footer {
     background: #419488;
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
 footer h2 a {
@@ -98,26 +146,4 @@ footer a {
     justify-content: space-between;
     box-sizing: border-box;
     padding: 0 10px;
-}
-
-@media only screen and (max-width: 769px) {
-
-    .container {
-        width: 720px;
-    }
-    
-}
-
-@media only screen and (max-width: 481px) {
-
-    .container {
-        width: 460px;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header h2 {
-        margin: 10px 0;
-    }
 }

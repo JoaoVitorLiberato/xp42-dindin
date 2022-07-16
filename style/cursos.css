@@ -1,86 +1,121 @@
-main{
-    margin-bottom: 30px;
-    
+@media(max-width:481px) {
+    * {
+        text-align: center;
+    }
+
+    article > h1 {
+        width: 450px;
+        font-size: medium;
+    }
+    .cursos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cursos .conteudo-cursos h2{
+       width: 480px;
+       font-size: 25px;
+    }
+
+    .cursos .conteudo-cursos p{
+        width: 400px;
+        font-size: 18px;
+    }
+    .cursos .conteudo-cursos a{
+        margin-top: 80px;
+    }
+
 }
 
+@media(max-width:980px) {
+    * {
+        text-align: center;
+    }
 
+    .cursos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cursos .conteudo-cursos h2{
+       width: 480px;
+       font-size: 25px;
+    }
 
-article > h1{
+    .cursos .conteudo-cursos p{
+        width: 400px;
+        font-size: 18px;
+    }
+    .cursos .conteudo-cursos a{
+        margin-top: 80px;
+    }
+}
+
+article > h1 {
     font-weight: 700;
     font-size: 60px;
-    line-height: 69px;  
+    line-height: 69px;
     width: 263px;
     height: 69px;
-    margin-left: 82px;  
-    margin-top: 100px;  
+    text-align: center;
     color: #FF4081;
+    margin-top: 60px;
 }
 
-article > p{
+article .educa {
+    width: 350px;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    width: 317px;
-    height: 23px;
-    margin-left: 82px;
     color: #555555;
-    
+    text-align: center;
 }
 
-.aba-cursos{
+.cursos {
     display: flex;
-    flex-direction: row;
-    justify-content: start;
-    margin-left: 60px;
-    margin-top: 90px;
-   
-
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
 }
 
-.imagem-cursos{
-    width: 380px;
-    height: 385px;
-    margin-top: 95px;
+.cursos img {
+    padding: 20px;
 }
 
-.conteudo-cursos{
+.conteudo-cursos {
     display: flex;
-    flex-wrap: wrap;
-    position: relative;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
-.conteudo-cursos h2{
+.conteudo-cursos h2 {
     color: #FF4081;
     font-weight: 700;
     font-size: 35px;
     line-height: 40px;
-    width: 512px;
     height: 40px;
-    margin-left: 80px;
-
 }
-.conteudo-cursos p{
+
+.conteudo-cursos p {
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
-    width: 724px;
+    width: 600px;
     height: 105px;
     color: #000000;
 }
 
-.botao{
-
+.botao {
     color: #FFFFFF;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
-    border-radius: 62px;
+    border-radius: 30px;
     background: #419488;
-    margin: 26px 377px 0px 81px;
-    padding: 11px 106px;
-   
+    padding: 13px;
+    margin-top: 45px;
 }
-
-
-

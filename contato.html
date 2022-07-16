@@ -8,86 +8,66 @@
     <title>DinDin - Contato</title>
 
     <link rel="stylesheet" href="./style/normalize.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-
     <link rel="stylesheet" href="./style/goblal.css">
     <link rel="stylesheet" href="./style/contato.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
 
 <body>
-
-    <header>
-        <div class="container">
-            <h2><a href="index.html">DIN DIN - Educação Financeira</a></h2>
-
-
-            <nav>
-                <ul>
-                    <li><a href="./cursos.html">cursos</a></li>
-                    <li><a href="./blog.html">blog</a></li>
-                    <li><a href="./contato.html">contato</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="w-100">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h2 class="screen-reader-only">DIN DIN - Educação Financeira</h2>
+                    <img src="./dindin-imagens/dindin-imagens/logo-header.png" alt="Logo" width="250" height="70">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./cursos.html">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blog.html">blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contato.html">contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-
     <main>
-
         <div class="container">
-
             <form action="" method="post">
-
-
                 <fieldset>
-
                     <legend>Contato</legend>
-
                     <div>
                         <input type="text" name="" required placeholder="nome" id="">
                     </div>
-
-
-
-
                     <div>
                         <input type="email" name="" required placeholder="email" id="">
-
                     </div>
-
-
-
                     <div>
                         <textarea name="" id="" required placeholder="mensagem" cols="30" rows="10"></textarea>
-
                     </div>
-
-
                     <div>
                         <input type="submit" value="Enviar">
-
                     </div>
-
-
                 </fieldset>
-
-
-
-
             </form>
-
-
-
-
-
         </div>
-
-
     </main>
-
     <footer>
         <div class="container">
             <h2>
@@ -108,9 +88,8 @@
             </div>
         </div>
     </footer>
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
-
 </html>

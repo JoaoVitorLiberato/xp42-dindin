@@ -1,6 +1,126 @@
 body{
+    padding: 0;
+    margin: 0 auto;
     box-sizing: border-box; 
-    
+}
+
+@media (max-width: 481px) {
+    .box1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .box1 h1, p, a{
+        padding: 10px;
+    }
+    .imagem-ilustra-baner img{
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+    }
+    .ilustracao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ilustracao .figuras-com-textos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .oQueFalam{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .oQueFalam h2{
+        text-align: center;
+    }
+    .comentarios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+    }
+    .oQueFalam .card{
+        margin: 10px;
+    }
+    .mais-conteudo h2{
+        text-align: center;
+    }
+    .mais-conteudo .conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 980px) {
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;align-items: center;
+    }
+    .box1 h1, p, a{
+        padding: 10px;
+    }
+    .imagem-ilustra-baner img{
+        width: 350px;
+        height: 350px;
+        margin-top: 50px;
+    }
+    .ilustracao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ilustracao .figuras-com-textos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .oQueFalam{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .oQueFalam h2{
+        text-align: center;
+    }
+    .comentarios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+    }
+    .oQueFalam .card{
+        margin: 10px;
+    }
+    .mais-conteudo h2{
+        text-align: center;
+    }
+    .mais-conteudo .conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .box1{
@@ -20,7 +140,7 @@ body{
 .bloco p{
     width: 462px;
     font-weight: 400;
-    font-size: 27px;
+    font-size: 22px;
     line-height: 31px;
     color: #555555;
 }
@@ -34,102 +154,85 @@ body{
     color: #FF4081;
     border: 2px solid #FF4081;
     padding: 10px;
-    box-sizing: border-box;
     border-radius: 62px;
-
 }
 
 .ilustracao{
     display: flex;
     justify-content: center;
-    background: #F6F6F6;
 }
 
 .imagem-ilustra-baner{
-    margin-top: 30px;
+    margin-top: 30px 0;
 }
 
-.figuras-com-textos {
+.figuras-com-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 140px 10px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .figuras-com-textos h3{
     width: 344px;
-    margin: 20px;
+    margin-top: 10px;
     font-weight: 700;
     font-size: 25px;
-    line-height: 29px;
-    text-align: center;
     color: #FF4081;
 }
 
 .figuras-com-textos p{
-   
-    width: 293px;
+   width: 300px;
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
     text-align: center;
-    margin-left: 42px;
     color: #000000;
 
 }
 
 .figuras-com-textos a{
-    width: 216px;
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
-    text-align: center;
     color: #FFFFFF;
     background: #FF4081;
-    box-sizing: border-box;
     padding: 10px;
-    margin-left: 115px;
     border-radius: 62px;
-
 }
 
-.div-mae h2{
+.oQueFalam{
+    padding: 50px;
+}
 
+.oQueFalam h2{
     width: 460px;
     font-weight: 700;
     font-size: 37px;
     line-height: 50px;
     color: #009688; 
-    margin: 90px 76px 130px;;
 }
 
-.divisora-icones{
+.comentarios{
     display: flex;
-    justify-content: center ;
-    align-items: center;
-   
+    justify-content: space-around;
+    padding: 25px;
 }
 
-
-.icone-lado-texto{
+.oQueFalam .card{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 50px;
-    
-}
-
-.imagem-icone{
-    display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 20px;
-    
+    align-items: center;
+    border-radius: 15px;
 }
 
-.comentario-icone{
-    width: 263px;
-    font-weight: 300;
-    font-size: 18px;
-    color: #000000;
+#card #img-icon{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
 }
 
 .mais-conteudo{
@@ -142,12 +245,11 @@ body{
 }
 
 .mais-conteudo > h2{
-    align-items: flex-start;
     font-weight: 700;
     font-size: 37px;
     line-height: 43px;
     color: #009688;
-    margin: 55px 629px 80px 0px;
+    padding: 30px;
 
 }
 
@@ -164,29 +266,24 @@ body{
     text-align: center;
 }
 
-
 .conteudo span{
     width: 319px;
     height: 193px;
     color: transparent;
     background-color: #C4C4C4;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
 .divs h3{
     font-weight: 700;
     color: #009688;
-
 }
 
 .mais-posts{
-   
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
     margin: 100px 0px 50px;
-    
 }
 
 .mais-posts a{
@@ -195,8 +292,4 @@ body{
     border: 2px solid #FF4081;
     border-radius: 20px;
     padding: 5px;
-   
 }
-
-
-

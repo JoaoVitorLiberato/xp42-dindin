@@ -1,4 +1,51 @@
+@media(max-width:481px){
+    .curso{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .curso .introdução h1{
+        width: 100%;
+    }
+    .curso .introdução p{
+        width: 100%;
+    }
 
+    .divisoria{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divisoria .video-aula{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media(max-width:980px){
+    .curso{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divisoria{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divisoria .video-aula{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 .curso{
     display: flex;
@@ -7,13 +54,12 @@
 }
 
 .introdução h1{
-    width: 512px;
-    height: 126px;
     font-weight: 700;
-    font-size: 55px;
-    line-height: 63px;  
+    font-size: 50px;
+    line-height: 40px;  
     color: #FF4081; 
     margin-top: 150px;
+    padding: 15px;
 }
 
 .introdução p{
@@ -22,22 +68,17 @@
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
-    display: flex;
-    align-items: center;
     color: #000000;
-
+    padding: 15px;
 }
-
 
 .imagem-ilustrativa{
     margin-top: 115px;    
 }
 
-
 .divisoria{
     background: #F7F7F7;
 }
-
 
 .video-aula{
     display: flex;
@@ -45,33 +86,23 @@
     margin-top: 55px;
     padding: 30px;
     border-bottom: 5px solid #C4C4C4;;
-
-    
 }
 
 .video{
-    margin: 40px 85px;
+    margin: 0px 85px;
 }
 
 .legenda-video h3 {
-
-    width: 512px;
-    height: 40px;
     font-weight: 700;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 27px;
+    line-height: 20px;
     color: #FF4081;
-
 }
 
 .legenda-video p{
-    width: 501px;
-    height: 195px;
+    width: 400px;
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
-    display: flex;
-    align-items: center;
     color: #000000;
 }
-

@@ -1,4 +1,71 @@
+@media (max-width:481px) {
+    .mais-conteudos{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mais-conteudos .info h1{
+        width: 100%;
+        font-size: x-large;
+    }
+    .mais-conteudos .info p{
+        width: auto;
+    }
+    .aba-global-blogs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .aba-global-blogs .conteudos-blogs .imagem{
+        width: 100%;
+    }
+    .aba-global-blogs .conteudos-blogs .informes h3{
+        width: 100%;
+        font-size: medium;
+    }
+    .aba-global-blogs .conteudos-blogs .informes p{
+        font-size: small;
+        width: 100%;
+    }   
+}
+
+@media (max-width:980px) {
+    .mais-conteudos{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mais-conteudos .info h1{
+        width: 100%;
+        font-size: x-large;
+    }
+    .mais-conteudos .info p{
+        width: auto;
+    }
+    .aba-global-blogs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .aba-global-blogs .conteudos-blogs .imagem{
+        width: 100%;
+    }
+    .aba-global-blogs .conteudos-blogs .informes h3{
+        width: 100%;
+        font-size: medium;
+    }
+    .aba-global-blogs .conteudos-blogs .informes p{
+        font-size: small;
+        width: 100%;
+    }
+
+}
 
 .mais-conteudos{
     display: flex ;
@@ -40,8 +107,8 @@
 .aba-global-blogs {
     display: flex;
     justify-content: center;
-    
 }
+
 .conteudos-blogs{
     margin: 50px;
 }
@@ -49,8 +116,7 @@
 .imagem{
     width: 518px;
     height: 270px;
-    background: #C4C4C4;
-    
+    background: #C4C4C4;    
 }
 
 .informes h3{
@@ -62,7 +128,6 @@
     display: flex;
     align-items: center;
     color: #FF4081;
-
 }
 
 .informes p{
@@ -75,4 +140,3 @@
     align-items: center;
     color: #000000;
 }
-
